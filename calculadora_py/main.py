@@ -128,8 +128,9 @@ def main(page: ft.Page):
                             ExtraActionButton(text="AC", on_click=on_action_click),
                             ExtraActionButton(text="+/-", on_click=on_action_click),
                             ExtraActionButton(text="%", on_click=on_action_click),
+                            ExtraActionButton(text="C", on_click=on_action_click)
                             ActionButton(text="/", on_click=on_action_click),
-                            ExtraActionButton(text="C", on_click=on_action_click),
+                            
                         ]
                     ),
                     ft.Row(
